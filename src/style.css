@@ -1,0 +1,32 @@
+body {
+    background-image: url('img/bg.jpg');
+    background-color: royalblue;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#main {
+    color: aliceblue;
+}
+
+.button {
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+form {
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    background-color: rgba(56, 8, 78, 0.8);
+    border-radius: 10px;
+}
+
+form input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+}

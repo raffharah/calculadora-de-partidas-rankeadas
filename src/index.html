@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partidas Rankeadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <form name="FormPontos" action="" method="post">
+            Quantidade de vitórias: <input type="text" name="f_win" placeholder="Vitórias"/><br/>
+            Quantidade de derrotas: <input type="text" name="f_lose" placeholder="Derrotas"/><br/>
+            <input class="button" type="button" name="btn_confirma" value="Confirmar" onclick="confirma()"/>
+            <input class="button" type="reset" name="btn_cancela" value="Cancelar"/>
+            <p id="resultado"></p>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
