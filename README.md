@@ -28,9 +28,9 @@ Ao final deve se exibir uma mensagem:
 ## O projeto
 O projeto consiste em três arquivos principais:
 - index.html
-  >Arquivo HTML para a entrada e captura de dados do usuario(vitórias e derrotas).
+  >Arquivo HTML para a entrada e captura de dados do usuário(vitórias e derrotas).
 - app.js
-  >Arquivo JavaScript para o tratamento de dados e validações dos dados inseridos pelo usuario.
+  >Arquivo JavaScript para o tratamento de dados e validações dos dados inseridos pelo usuário.
 - style.css
   >Arquivo CSS para uma melhor usabilidade do usuário para a entrada ou saida de dados.
 
